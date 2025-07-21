@@ -8,7 +8,7 @@ import time
 
 app = FastAPI()
 
-DB_PATH = 'itens.db'
+DB_PATH = 'items.db'
 
 # Prometheus metrics
 REQUEST_COUNT = Counter('http_requests_total', 'Total HTTP requests', ['method', 'endpoint', 'http_status'])
